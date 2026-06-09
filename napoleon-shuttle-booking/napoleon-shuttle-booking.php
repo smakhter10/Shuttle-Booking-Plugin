@@ -4,7 +4,7 @@
  * Plugin URI:  https://example.com/napoleon-shuttle-booking
  * Description: A custom shuttle/service booking system with WooCommerce payment integration.
  * Version:     3.3.8
- * Author:      Your Name
+ * Author:      Seeyam
  * Author URI:  https://example.com
  * License:     GPL-2.0+
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
