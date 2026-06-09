@@ -1,0 +1,5 @@
+*.zip
+*.pdf
+*.webp
+.DS_Store
+Thumbs.db

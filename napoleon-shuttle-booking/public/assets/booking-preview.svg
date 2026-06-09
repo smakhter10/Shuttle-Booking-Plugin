@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Premium black shuttle vehicle at airport terminal">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2c2117"/>
+      <stop offset="0.45" stop-color="#7b542a"/>
+      <stop offset="1" stop-color="#17120c"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#201813"/>
+      <stop offset="1" stop-color="#403326"/>
+    </linearGradient>
+    <linearGradient id="van" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111111"/>
+      <stop offset="0.5" stop-color="#26211d"/>
+      <stop offset="1" stop-color="#050505"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="900" height="620" fill="url(#sky)"/>
+  <circle cx="720" cy="120" r="150" fill="#d7a15a" opacity="0.18"/>
+  <circle cx="190" cy="115" r="90" fill="#fff3dd" opacity="0.08"/>
+  <g opacity="0.23">
+    <rect x="70" y="130" width="90" height="260" fill="#fff"/>
+    <rect x="190" y="80" width="120" height="310" fill="#fff"/>
+    <rect x="350" y="105" width="105" height="285" fill="#fff"/>
+    <rect x="495" y="55" width="135" height="335" fill="#fff"/>
+    <rect x="690" y="120" width="95" height="270" fill="#fff"/>
+  </g>
+  <g opacity="0.28">
+    <path d="M0 397h900v223H0z" fill="url(#road)"/>
+    <path d="M75 540h260M455 540h370" stroke="#d7a15a" stroke-width="8" stroke-linecap="round" opacity="0.45"/>
+  </g>
+  <g filter="url(#shadow)" transform="translate(118 272)">
+    <path d="M108 66c16-40 46-59 94-59h251c34 0 58 15 77 46l52 84h37c24 0 43 19 43 43v68H28v-85c0-54 27-88 80-97z" fill="url(#van)"/>
+    <path d="M167 45h112v83H120l31-57c4-8 9-17 16-26z" fill="#c99048" opacity="0.75"/>
+    <path d="M303 45h146c19 0 35 8 46 24l39 59H303z" fill="#c99048" opacity="0.65"/>
+    <path d="M45 175h592v47H45z" fill="#070707" opacity="0.8"/>
+    <path d="M86 156h86M476 156h92" stroke="#d7a15a" stroke-width="7" stroke-linecap="round" opacity="0.9"/>
+    <circle cx="158" cy="249" r="54" fill="#080808"/>
+    <circle cx="158" cy="249" r="27" fill="#5a4938"/>
+    <circle cx="515" cy="249" r="54" fill="#080808"/>
+    <circle cx="515" cy="249" r="27" fill="#5a4938"/>
+  </g>
+  <text x="70" y="72" fill="#fff7ed" font-family="Georgia, serif" font-size="38" font-weight="700">Napoleon Logistics</text>
+  <text x="72" y="108" fill="#f0c48b" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="4">PREMIUM SHUTTLE SERVICE</text>
+</svg>
